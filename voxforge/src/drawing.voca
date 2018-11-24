@@ -1,0 +1,36 @@
+% NS_B
+<s>  sil
+
+% NS_E
+</s> sil
+
+% DRAW_V
+DRAW d r ao
+
+% ZOOM_V
+ZOOM z uw m
+
+% FILL_V
+FILL f ih l
+
+% ERASE_V
+ERASE ih r ey s
+
+% SHAPE_N
+CIRCLE  s er k ah l
+SQUARE  s k w eh r
+TRIANGLE  t r ay ae ng g ah l
+
+% DIGIT
+ONE        w ah n
+THREE        th r iy
+TWO        t uw
+
+% COLOR_N
+RED  r eh d
+GREEN  g r iy n
+BLUE  b l uw
+
+% SCALE_N
+IN  ih n
+OUT aw t

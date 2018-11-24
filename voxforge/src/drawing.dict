@@ -1,0 +1,17 @@
+0	[<s>]	sil
+1	[</s>]	sil
+2	[DRAW]	d r ao
+3	[ZOOM]	z uw m
+4	[FILL]	f ih l
+5	[ERASE]	ih r ey s
+6	[CIRCLE]	s er k ah l
+6	[SQUARE]	s k w eh r
+6	[TRIANGLE]	t r ay ae ng g ah l
+7	[ONE]	w ah n
+7	[THREE]	th r iy
+7	[TWO]	t uw
+8	[RED]	r eh d
+8	[GREEN]	g r iy n
+8	[BLUE]	b l uw
+9	[IN]	ih n
+9	[OUT]	aw t

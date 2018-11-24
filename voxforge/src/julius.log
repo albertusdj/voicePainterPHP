@@ -1,0 +1,69 @@
+STAT: jconf successfully finalized
+STAT: *** loading AM00 _default
+Stat: init_phmm: Reading in HMM definition
+Stat: rdhmmdef: ascii format HMM definition
+Stat: rdhmmdef: limit check passed
+Stat: check_hmm_restriction: an HMM with several arcs from initial state found: "sp"
+Stat: rdhmmdef: this HMM requires multipath handling at decoding
+Stat: rdhmmdef: no <SID> embedded
+Stat: rdhmmdef: assign SID by the order of appearance
+Stat: init_phmm: defined HMMs:    29
+Stat: init_phmm: loading ascii hmmlist
+Stat: init_phmm: logical names:    54 in HMMList
+Stat: init_phmm: base phones:    28 used in logical
+Stat: init_phmm: finished reading HMM definitions
+STAT: m_fusion: force multipath HMM handling by user request
+STAT: making pseudo bi/mono-phone for IW-triphone
+Stat: hmm_lookup: 69 pseudo phones are added to logical HMM list
+STAT: *** AM00 _default loaded
+STAT: *** loading LM00 _default
+STAT: reading [../manual/../src/drawing.dfa] and [../manual/../src/drawing.dict]...
+Error: voca_load_htkdict: line 10: triphone "*-f+ay" or biphone "f+ay" not found
+Error: voca_load_htkdict: line 10: triphone "f-ay+v" not found
+Error: voca_load_htkdict: line 10: triphone "ay-v+*" or biphone "ay-v" not found
+Error: voca_load_htkdict: the line content was: 7	[FIVE]	f ay v
+Error: voca_load_htkdict: line 11: triphone "*-f+ow" or biphone "f+ow" not found
+Error: voca_load_htkdict: line 11: triphone "f-ow+r" not found
+Error: voca_load_htkdict: line 11: triphone "ow-r+*" or biphone "ow-r" not found
+Error: voca_load_htkdict: the line content was: 7	[FOUR]	f ow r
+Error: voca_load_htkdict: line 12: triphone "*-n+ay" or biphone "n+ay" not found
+Error: voca_load_htkdict: line 12: triphone "n-ay+n" not found
+Error: voca_load_htkdict: line 12: triphone "ay-n+*" or biphone "ay-n" not found
+Error: voca_load_htkdict: the line content was: 7	[NINE]	n ay n
+Error: voca_load_htkdict: line 13: triphone "*-ey+t" or biphone "ey+t" not found
+Error: voca_load_htkdict: line 13: triphone "ey-t+*" or biphone "ey-t" not found
+Error: voca_load_htkdict: the line content was: 7	[EIGHT]	ey t
+Error: voca_load_htkdict: line 15: triphone "*-s+eh" or biphone "s+eh" not found
+Error: voca_load_htkdict: line 15: triphone "s-eh+v" not found
+Error: voca_load_htkdict: line 15: triphone "eh-v+ih" not found
+Error: voca_load_htkdict: line 15: triphone "v-ih+n" not found
+Error: voca_load_htkdict: the line content was: 7	[SEVEN]	s eh v ih n
+Error: voca_load_htkdict: line 16: triphone "*-s+ih" or biphone "s+ih" not found
+Error: voca_load_htkdict: line 16: triphone "s-ih+k" not found
+Error: voca_load_htkdict: line 16: triphone "ih-k+s" not found
+Error: voca_load_htkdict: line 16: triphone "k-s+*" or biphone "k-s" not found
+Error: voca_load_htkdict: the line content was: 7	[SIX]	s ih k s
+Error: voca_load_htkdict: begin missing phones
+Error: voca_load_htkdict: *-ey+t or biphone ey+t
+Error: voca_load_htkdict: *-f+ay or biphone f+ay
+Error: voca_load_htkdict: *-f+ow or biphone f+ow
+Error: voca_load_htkdict: *-n+ay or biphone n+ay
+Error: voca_load_htkdict: *-s+eh or biphone s+eh
+Error: voca_load_htkdict: *-s+ih or biphone s+ih
+Error: voca_load_htkdict: ay-n+* or biphone ay-n
+Error: voca_load_htkdict: ay-v+* or biphone ay-v
+Error: voca_load_htkdict: eh-v+ih
+Error: voca_load_htkdict: ey-t+* or biphone ey-t
+Error: voca_load_htkdict: f-ay+v
+Error: voca_load_htkdict: f-ow+r
+Error: voca_load_htkdict: ih-k+s
+Error: voca_load_htkdict: k-s+* or biphone k-s
+Error: voca_load_htkdict: n-ay+n
+Error: voca_load_htkdict: ow-r+* or biphone ow-r
+Error: voca_load_htkdict: s-eh+v
+Error: voca_load_htkdict: s-ih+k
+Error: voca_load_htkdict: v-ih+n
+Error: voca_load_htkdict: end missing phones
+Error: init_voca: error in reading ../manual/../src/drawing.dict: 6 words failed out of 17 words
+ERROR: failed to read dictionary "../manual/../src/drawing.dict"
+ERROR: m_fusion: some error occured in reading grammars
